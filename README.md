@@ -17,7 +17,7 @@ djocker/sshd
 ```
 docker run -d --restart=always \
 -p 2023:22 \
--v /var/www:/home/web/www \
+-v /var/www:/home/john/www \
 -e "USER_NAME=john" \
 -e "USER_PASS=johndoe1234" \
 -e "USER_UID=1000" \
